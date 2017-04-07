@@ -78,6 +78,7 @@ h3{
 	margin:0 0 5px 0;
 	text-transform:uppercase;
 	font-weight:400;
+    padding-top: 1em;
 }
 h6{
 	font-size:16px;
@@ -85,11 +86,13 @@ h6{
 	font-family: 'Open Sans', sans-serif;
 	font-weight:400;
 	text-align:center;
-	margin:0 0 60px 0;
+	margin:0 0 80px 0;
 }
 p{
 	line-height:24px;
 	margin:0;
+    padding-bottom: 100px;
+
 }
 
 /* Header Styles
@@ -353,11 +356,11 @@ color: #fff;
 .Portfolio-box{
 	text-align:center;
 	margin-bottom:30px;
-	height:350px;
-	width:350px;
-	overflow:hidden;
+	height:150%;
+	width:90%;
+	overflow-x:scroll;
 	float:left;
-	padding:0;
+	padding-bottom: 1em;
 }
 .Portfolio-box img{
 	margin-bottom:25px;
@@ -386,12 +389,14 @@ img {
   -webkit-transition-duration: 0.6s;
      -moz-transition-duration: 0.6s;
           transition-duration: 0.6s;
+          padding-bottom: 1em;
 }
 
 .isotope .isotope-item {
   -webkit-transition-property: -webkit-transform, opacity;
      -moz-transition-property:    -moz-transform, opacity;
           transition-property:         transform, opacity;
+          padding-bottom: 1em;
 }
 
 .main-section.paddind{
